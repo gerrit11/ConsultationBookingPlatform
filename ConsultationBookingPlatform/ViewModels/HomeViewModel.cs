@@ -21,7 +21,7 @@ namespace ConsultationBookingPlatform.ViewModels
 
         public HomeViewModel()
         {
-            Title = "Browse";
+            Title = "Home";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
